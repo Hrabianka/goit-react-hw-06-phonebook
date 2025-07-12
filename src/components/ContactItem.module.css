@@ -1,0 +1,65 @@
+h2 {
+  color: blueviolet;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: blueviolet; /* Same color as Phonebook */
+}
+
+.deleteclass {
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: mintcream;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.deleteclass:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.inputclass {
+  width: 250px;
+  height: 15px;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+
+.inputclass:hover, .inputclass:focus {
+  border-color: #6106ea;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 1.9);
+}
+
+.newInputClass {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+label {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+}
+
+li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

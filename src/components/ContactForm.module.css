@@ -1,0 +1,60 @@
+.phonebook {
+    padding-left: 20px;
+  }
+  
+  h1 {
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .formclass {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 550px;
+  }
+  
+  .labelclass {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: blueviolet;
+  }
+  
+  .inputclass {
+    width: 300px;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 3px;
+  }
+  
+  .inputclass:hover, .inputclass:focus {
+    border-color: #06ea9e;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 1.9);
+  }
+  
+  .buttonclass {
+    width: 150px;
+    height: 40px;
+    padding: 3px 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgb(75, 243, 159);
+  }
+  
+  .buttonclass:hover {
+    background-color: #25583f;
+    color: white;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
